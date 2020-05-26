@@ -1,0 +1,350 @@
+.nav-bar {
+    background-color: #12cc82;
+}
+.header-container {
+    height: 510px;
+    margin-top: -50px !important;
+    background-image: url(https://images.unsplash.com/photo-1498409785966-ab341407de6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1360&q=80);
+}
+.header {
+    color: white;
+    font-size: 100px;
+    margin-top: 50px !important;
+    margin-left: 250px;
+}
+.header-part-two {
+    color: white;
+    font-size: 100px;
+    margin-left: 350px;
+}
+.community {
+    color: white;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.events {
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.programs {
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.nav-text {
+    color: white;
+    font-size: 17px;
+    margin-left: 340px;
+}
+.sing-in {
+    color: black;
+    background-color: white;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 750px;
+}
+.logo {
+    width: 70px;
+    margin-left: 20px;
+}
+a:hover {
+    color: white;
+}
+.programs-container {
+    margin-top: 70px;
+}
+.programs-header {
+    color: black;
+    font-size: 40px;
+    margin-left: 500px;
+}
+.programs-text {
+    font-size: 16px;
+    margin-left: 350px;
+}
+#boot-main {
+    margin-left: 25px;
+}
+#first-pr-container {
+    width: 270px;
+    height: 270px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.f-c-text {
+    color: black;
+    margin-bottom: -1px;
+    margin-left: 20px;
+}
+.f-c-small {
+    font-size: 15px;
+    margin-top: 3px;
+    margin-left: 70px;
+}
+.f-c-price {
+    color: black !important;
+    margin-bottom: -3px;
+    margin-left: 50px;
+}
+.f-c-info {
+    font-size: 18px;
+    margin-left: 80px;
+}
+.f-c-button {
+    color: white;
+    width: 120px;
+    height: 45px;
+    margin-left: 65px;
+    margin-top: 30px;
+    background-color: #12cc82;
+    border-color: #12cc82;
+    border-radius: 5px;
+}
+#second-pr-container {
+    width: 270px;
+    height: 270px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.s-c-text {
+    color: black;
+    margin-bottom: -1px;
+    margin-left: 60px;
+}
+.s-c-small {
+    font-size: 15px;
+    margin-top: 3px;
+    margin-left: 70px;
+}
+.s-c-price {
+    color: black !important;
+    margin-bottom: -3px;
+    margin-left: 60px;
+}
+.s-c-info {
+    font-size: 18px;
+    margin-left: 80px;
+}
+.s-c-button {
+    color: white;
+    width: 120px;
+    height: 45px;
+    margin-left: 75px;
+    margin-top: 30px;
+    background-color: #12cc82;
+    border-color: #12cc82;
+    border-radius: 5px;
+}
+#third-pr-container {
+    width: 270px;
+    height: 270px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.t-c-text {
+    color: black;
+    margin-bottom: -1px;
+    margin-left: 60px;
+}
+.t-c-small {
+    font-size: 15px;
+    margin-top: 3px;
+    margin-left: 60px;
+}
+.t-c-price {
+    color: black !important;
+    margin-bottom: -3px;
+    margin-left: 50px;
+}
+.t-c-info {
+    font-size: 18px;
+    margin-left: 80px;
+}
+.t-c-button {
+    color: white;
+    width: 120px;
+    height: 45px;
+    margin-left: 75px;
+    margin-top: 30px;
+    background-color: #12cc82;
+    border-color: #12cc82;
+    border-radius: 5px;
+}
+#fourth-pr-container {
+    width: 270px;
+    height: 270px;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.fo-c-text {
+    color: black;
+    margin-bottom: -1px;
+    margin-left: 55px;
+}
+.fo-c-small {
+    font-size: 15px;
+    margin-top: 3px;
+    margin-left: 65px;
+}
+.fo-c-price {
+    color: black !important;
+    margin-bottom: -3px;
+    margin-left: 40px;
+}
+.fo-c-button {
+    color: white;
+    width: 120px;
+    height: 45px;
+    margin-left: 60px;
+    margin-top: 65px;
+    background-color: #12cc82;
+    border-color: #12cc82;
+    border-radius: 5px;
+}
+.events-container {
+    margin-top: 100px;
+}
+.events-header {
+    color: black;
+    font-size: 40px;
+    margin-left: 530px;
+}
+.events-text {
+    font-size: 16px;
+    margin-left: 510px;
+}
+.workshops-image {
+    margin-left: 50px;
+    border-radius: 5px;
+    width: 300px;
+}
+.workshops-image:hover {
+    width: 301px;
+}
+.w-span {
+    color: black;
+    margin-left: 120px;
+}
+.first-w-text {
+    margin-left: 100px;
+}
+.second-w-text {
+    margin-top: -8px;
+    margin-left: 80px;
+}
+.talks-image {
+    margin-left: 20px;
+    margin-right: -20px;
+    border-radius: 5px;
+    width: 300px;
+}
+.talks-image:hover {
+    width: 301px;
+}
+.t-span {
+    color: black;
+    margin-left: 130px;
+}
+.first-t-text {
+    margin-left: 80px;
+}
+.second-t-text {
+    margin-top: -8px;
+    margin-left: 85px;
+}
+.hackaton-image {
+    margin-left: -10px !important;
+    border-radius: 5px;
+    width: 300px;
+}
+.hackaton-image:hover {
+    width: 301px;
+}
+.h-span {
+    color: black;
+    margin-left: 60px;
+}
+.first-h-text {
+    margin-left: 20px;
+}
+.community-container {
+    margin-top: 100px;
+}
+.community-header {
+    color: black;
+    font-size: 40px;
+    margin-left: 490px;
+}
+.join-comm-header {
+    font-size: 18px;
+    margin-left: 545px;
+}
+.logo-container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 363px;
+}
+.facebook-logo {
+    width: 40px;
+}
+.instagram-logo {
+    width: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.linkedin-logo {
+    width: 40px;
+    margin-right: 100px;
+}
+.twitter-logo {
+    width: 40px;
+}
+.final-container {
+    height: 130px;
+    background-color: #12cc82;
+}
+.copyright-text {
+    color: white;
+    margin-top: 50px;
+    margin-left: 480px;
+}
+.me-text {
+    color: white;
+    margin-left: 505px;
+}
+.sup-container {
+    margin-top: -85px !important;
+}
+.sup-text {
+    color: white;
+    margin-left: 120px;
+}
+.sup-logo {
+    width: 100px;
+    margin-left: 105px;
+}
+.g-h-container {
+    margin-top: -30px;
+    margin-left: 850px;
+}
+.g-h-text {
+    color: white;
+    margin-left: 120px;
+}
+.g-h-logo {
+    width: 150px;
+    margin-top: -20px;
+    margin-left: 105px;
+}
+.additional-container {
+    background-color: #12cc82;
+    margin-bottom: -50px;
+}
+.additional-text {
+    color: #12cc82;
+}
