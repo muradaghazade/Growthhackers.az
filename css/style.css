@@ -247,9 +247,6 @@ a:hover {
     color: black;
     /* margin-left: 120px; */
 }
-.first-w-text {
-    /* margin-left: 100px; */
-}
 .second-w-text {
     margin-top: -8px;
     /* margin-left: 80px; */
@@ -258,9 +255,6 @@ a:hover {
     color: black;
     /* margin-left: 130px; */
 }
-.first-t-text {
-    /* margin-left: 80px; */
-}
 .second-t-text {
     margin-top: -8px;
     /* margin-left: 85px; */
@@ -268,9 +262,6 @@ a:hover {
 .h-span {
     color: black;
     /* margin-left: 60px; */
-}
-.first-h-text {
-    /* margin-left: 20px; */
 }
 .community-container {
     margin-top: 100px;
@@ -330,4 +321,28 @@ a:hover {
 }
 .g-h-logo {
     width: 150px;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: tomato;
+    color: white;
+}
+.fa-linkedin {
+    background: #2867B2;
+    color: white;
 }
