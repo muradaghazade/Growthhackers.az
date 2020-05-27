@@ -1,4 +1,12 @@
 document.querySelector(".button").addEventListener('click', function(){
-    console.log(document.querySelector(".full-name").value);
-    console.log(document.querySelector(".email").value);
+    let fKeyword = document.querySelector(".full-name").value;
+    let eKeyword = document.querySelector(".email").value;
+    if(fKeyword === ""){
+        alert("Enter your full name");
+    }else if(eKeyword === ""){
+        alert("Enter your email adress")
+    }else{
+        console.log(fKeyword);
+        console.log(eKeyword);
+    }
 })
