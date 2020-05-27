@@ -1,113 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Growth Hacking</title>
-    <link rel="stylesheet" href="css/bootstrap.min copy 3.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min copy 3.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="logo.png">
 </head>
+
 <body>
-    <div class="nav-bar">
-       <a href="index.html"><img class="logo" src="logo.png" alt="logo"></a>
-            <a class="community" href="">Community</a>
-            <a class="events" href="">Events</a>
-            <a class="programs" href="">Programs</a>
-            <a href="sing-in copy.html"><button class="sing-in">Subscribe</button></a>
-            <!--<small class="nav-text">THE FIRST GROWTH HACKING COMMUNITY IN THE REGION</small>-->
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img class="logo" src="logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#community">Community<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#events">Events<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#programs">Programs<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto align-items-start">
+                <li class="nav-item active">
+                    <a class="nav-link btn subscribe-btn" href="subscribe.html">Subscribe<span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="main">
-        <div class="header-container">
+        <div class="header-container d-flex flex-column align-items-center justify-content-center">
             <h1 class="header">Growth Hacking</h1>
             <h1 class="header-part-two">from A to Z</h1>
         </div>
-        <div class="programs-container">
+        <div class="programs-container text-center" id="programs">
             <h2 class="programs-header">Programs</h2>
             <p class="programs-text">For large and small companies that invest in development without limits</p>
-            <div id="boot-main" class="container-fluid">
+            <div class="container-fluid">
                 <div class="row">
-                    <div id="first-pr-container" class="col-md-3">
-                        <h4 class="f-c-text">Transitioning to Growth</h4>
-                        <small class="f-c-small">from 1-4 users</small>
-                        <h1 class="f-c-price">$199/mo</h1>
-                        <p class="f-c-info">paid annually</p>
-                        <a href="https://a.growthhackers.com/login"><button class="f-c-button">Get started</button></a>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="programs-card">
+                            <h4 class="f-c-text">Transitioning to Growth</h4>
+                            <small class="f-c-small">from 1-4 users</small>
+                            <h1 class="f-c-price">$199/mo</h1>
+                            <p class="f-c-info">paid annually</p>
+                            <a href="https://a.growthhackers.com/login"><button class="f-c-button">Get
+                                    started</button></a>
+                        </div>
                     </div>
-                    <div id="second-pr-container" class="col-md-3">
-                        <h4 class="s-c-text">Scaling Growth</h4>
-                        <small class="s-c-small">from 5-15 users</small>
-                        <h1 class="s-c-price">$399/mo</h1>
-                        <p class="s-c-info">paid annually</p>
-                        <a href="https://a.growthhackers.com/login"><button class="f-c-button">Get started</button></a>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="programs-card">
+                            <h4 class="s-c-text">Scaling Growth</h4>
+                            <small class="s-c-small">from 5-15 users</small>
+                            <h1 class="s-c-price">$399/mo</h1>
+                            <p class="s-c-info">paid annually</p>
+                            <a href="https://a.growthhackers.com/login"><button class="f-c-button">Get
+                                    started</button></a>
+                        </div>
                     </div>
-                    <div id="third-pr-container" class="col-md-3">
-                        <h4 class="t-c-text">Growth Team</h4>
-                        <small class="t-c-small">from 16-50 users</small>
-                        <h1 class="t-c-price">$999/mo</h1>
-                        <p class="t-c-info">paid annually</p>
-                        <a href="https://a.growthhackers.com/login"><button class="f-c-button">Get started</button></a>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="programs-card">
+                            <h4 class="t-c-text">Growth Team</h4>
+                            <small class="t-c-small">from 16-50 users</small>
+                            <h1 class="t-c-price">$999/mo</h1>
+                            <p class="t-c-info">paid annually</p>
+                            <a href="https://a.growthhackers.com/login"><button class="f-c-button">Get
+                                    started</button></a>
+                        </div>
                     </div>
-                    <div id="fourth-pr-container" class="col-md-3">
-                        <h4 class="fo-c-text">Growth Culture</h4>
-                        <small class="fo-c-small">Unlimited users</small>
-                        <h1 class="fo-c-price">Talk to us</h1>
-                        <a href="https://a.growthhackers.com/login"><button class="fo-c-button">Get started</button></a>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="programs-card">
+                            <h4 class="fo-c-text">Growth Culture</h4>
+                            <small class="fo-c-small">Unlimited users</small>
+                            <h1 class="fo-c-price">Talk to us</h1>
+                            <a href="https://a.growthhackers.com/login"><button class="fo-c-button">Get
+                                    started</button></a>
+                        </div>
                     </div>
-        </div>
-    </div>
-    </div>
-    <div class="events-container">
-        <h2 class="events-header">Events</h2>
-        <p class="events-text">Join our monthly events</p>
-        <div id="second-main-boot" class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="https://www.facebook.com/Growthhackingaz-101744424899443/"><img class="workshops-image" src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" alt="Workshops"></a>
-                    <h2 class="w-span">Workshops</h2>
-                    <p class="first-w-text">Master classes from prominent</p>
-                    <p class="second-w-text">representativies from around the world</p>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://www.facebook.com/Growthhackingaz-101744424899443/"><img class="talks-image" src="talks.png" alt="Talks"></a>
-                    <h2 class="t-span">Talks</h2>
-                    <p class="first-t-text">Fireside chats with growth</p>
-                    <p class="second-t-text">managers of top startups</p>
-                </div>
-                <div class="col-md-4">
-                    <a href="https://www.facebook.com/Growthhackingaz-101744424899443/"><img class="hackaton-image" src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="Hackatons"></a>
-                    <h2 class="h-span">Hackathons</h2>
-                    <p class="first-h-text">48-hours hackathons based on real bases</p>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="community-container">
-        <h2 class="community-header">Community</h2>
-        <p class="join-comm-header">JOIN US ON</p>
-        <div class="logo-container">
-            <a href="https://www.facebook.com/Growthhackingaz-101744424899443/"><img class="facebook-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/growthhacking.az/?hl=ru"><img class="instagram-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png" alt="Insatgram"></a>
-            <a href="https://www.linkedin.com/company/growthhacking-az/?viewAsMember=true"><img class="linkedin-logo" src="https://www.mavitecgreenenergy.com/wordpress/wp-content/uploads/2016/04/Linkedin-Icon-1024x1024.png" alt="Linkedin"></a>
-            <a href="https://twitter.com/AzGrowthhacking"><img class="twitter-logo" src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png" alt="Twitter"></a>
+        <div class="events-container text-center" id="events">
+            <h2 class="events-header">Events</h2>
+            <p class="events-text">Join our monthly events</p>
+            <div id="second-main-boot" class="container-fluid">
+                <div class="row events-row">
+                    <div class="col-md-4">
+                        <a href="https://www.facebook.com/Growthhackingaz-101744424899443/"><img class="events-image"
+                                src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+                                alt="Workshops"></a>
+                        <h2 class="">Workshops</h2>
+                        <p class="first-w-text">Master classes from prominent</p>
+                        <p class="second-w-text">representativies from around the world</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.facebook.com/Growthhackingaz-101744424899443/"><img class="events-image"
+                                src="talks.png" alt="Talks"></a>
+                        <h2 class="">Talks</h2>
+                        <p class="first-t-text">Fireside chats with growth</p>
+                        <p class="second-t-text">managers of top startups</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.facebook.com/Growthhackingaz-101744424899443/"><img class="events-image"
+                                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80"
+                                alt="Hackatons"></a>
+                        <h2 class="">Hackathons</h2>
+                        <p class="first-h-text">48-hours hackathons based on real bases</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="community-container text-center" id="community">
+            <h2 class="community-header">Community</h2>
+            <p class="join-comm-header">JOIN US ON</p>
+            <div class="logo-container">
+                <a href="https://www.facebook.com/Growthhackingaz-101744424899443/"><img class="facebook-logo"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/growthhacking.az/?hl=ru"><img class="instagram-logo"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"
+                        alt="Insatgram"></a>
+                <a href="https://www.linkedin.com/company/growthhacking-az/?viewAsMember=true"><img
+                        class="linkedin-logo"
+                        src="https://www.mavitecgreenenergy.com/wordpress/wp-content/uploads/2016/04/Linkedin-Icon-1024x1024.png"
+                        alt="Linkedin"></a>
+                <a href="https://twitter.com/AzGrowthhacking"><img class="twitter-logo"
+                        src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png"
+                        alt="Twitter"></a>
+            </div>
+        </div>
+        <div class="final-container text-center">
+            
+            <div class="d-flex justify-content-between">
+                <div class="sup-container">
+                    <p class="sup-text m-0">Powered by</p>
+                    <a href="https://sup.az/"><img class="sup-logo" src="sup-logo-dark-font.png" alt="Sup Logo"></a>
+                </div>
+                <div>
+                    <p class="copyright-text">Copyright © 2020 Growthhacking.az</p>
+                    <p class="me-text">Website by Murad Aghazada</p>
+                </div>
+                <div class="g-h-container">
+                    <p class="g-h-text m-0">In partnership with</p>
+                    <a href="https://growthhackers.com/posts"><img class="g-h-logo" src="experiments-by-growthhackers.png"
+                            alt="Growthhackers Logo"></a>
+                </div>
+            </div>
+            
+            
         </div>
     </div>
-    <div class="additional-container">
-        <p class="additional-text">additional-text</p>
-    </div>
-    <div class="final-container">
-       
-        <p class="copyright-text">Copyright © 2020 Growthhacking.az</p>
-        <p class="me-text">Website by Murad Aghazada</p>
-        <div class="g-h-container">
-            <p class="g-h-text">In partnership with</p>
-            <a href="https://growthhackers.com/posts"><img class="g-h-logo" src="experiments-by-growthhackers.png" alt="Growthhackers Logo"></a>
-        </div>
-        <div class="sup-container">
-            <p class="sup-text">Powered by</p>
-            <a href="https://sup.az/"><img class="sup-logo" src="sup-logo-dark-font.png" alt="Sup Logo"></a>
-        </div>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
