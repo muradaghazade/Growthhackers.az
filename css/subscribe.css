@@ -1,16 +1,10 @@
 body {
     background-color: white;
 }
-.full-name {
+.info {
+    color: black;
     width: 350px;
     height: 30px;
-    border-color: black;
-    border-radius: 3px;
-}
-.email {
-    width: 350px;
-    height: 30px;
-    margin-top: 10px;
     margin-bottom: 10px;
     border-color: black;
     border-radius: 3px;
@@ -21,11 +15,16 @@ body {
 .icon-image {
     width: 150px;
 }
-#formContent {
-    margin-top: 100px;
+#project-description {
+    color: black;
+    width: 350px;
+    height: 150px;
 }
-.wrapper {
-    margin-bottom: 20px;
+#formContent {
+    margin-top: 30px;
+}
+#iformContent {
+    margin-top: 100px;
 }
 .button {
     color: white;
