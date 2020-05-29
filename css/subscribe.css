@@ -20,9 +20,6 @@ body {
     width: 350px;
     height: 150px;
 }
-#formContent {
-    margin-top: 30px;
-}
 #iformContent {
     margin-top: 100px;
 }
@@ -30,4 +27,7 @@ body {
     color: white;
     background-color: #12cc82;
     border-radius: 5px;
+}
+.button-area {
+    padding: 10px;
 }
